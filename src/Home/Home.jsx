@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import bg from '../assets/bg.jpg';
 const Home = () => {
     return (
-        <div className="relative" style={{
+        <div id="home" className="relative" style={{
             width:"100%",
             height:"100vh",
             backgroundImage: `url(${bg})`,
