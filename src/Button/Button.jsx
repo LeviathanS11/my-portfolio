@@ -3,7 +3,7 @@ import resume from '../assets/My resume.pdf'
 const Button = ({children}) => {
     
     return (
-        <button className="border-2 border-gray-300 px-2 ml-3 rounded text-gray-800 hover:text-gray-400 duration-500"> 
+        <button className="bg-cyan-400 rounded-lg border-2 w-24 h-12 text-center ml-2 text-gray-800 hover:text-gray-400 duration-500 drop-shadow-xl"> 
          <a href={resume} download>{children}</a>
         </button>
     );
