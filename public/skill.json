@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "name":"HTML",
+        "image":"https://i.ibb.co/mczWW02/html.png"
+    },
+    {
+        "id":2,
+        "name":"CSS",
+        "image":"https://i.ibb.co/CtLH7yy/css.png"
+    },
+    {
+        "id":3,
+        "name":"BOOTSTRAP",
+        "image":"https://i.ibb.co/M70BRwC/bootstrap.jpg"
+    },
+    {
+        "id":4,
+        "name":"TAILWIND CSS",
+        "image":"https://i.ibb.co/pbM2gfw/tailwindcss.jpg"
+    },
+    {
+        "id":5,
+        "name":"REACT",
+        "image":"https://i.ibb.co/SmZVk2Y/react.jpg"
+    },
+    {
+        "id":6,
+        "name":"FIREBASE",
+        "image":"https://i.ibb.co/nwpZYrh/firebase.png"
+    },
+    {
+        "id":7,
+        "name":"EXPRESS JS",
+        "image":"https://i.ibb.co/QbcDqWQ/expressjs.png"
+    },
+    {
+        "id":8,
+        "name":"MONGO DB",
+        "image":"https://i.ibb.co/41gLNKG/mongodb.png"
+    }
+]

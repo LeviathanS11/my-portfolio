@@ -1,9 +1,25 @@
-
+import { useEffect, useState } from "react";
+import SkillCard from "./SkillCard";
 
 const Skils = () => {
+    const [items, setItem] = useState([])
+
+    useEffect(() => {
+        fetch("/public/skill.json")
+            .then(res => res.json())
+            .then(data => {
+                console.log(data)
+                setItem(data)
+            })
+    }, [])
     return (
-        <div>
-            this is skill
+        <div id="skill" className="bg-gradient-to-r from-slate-200 via-white to-slate-200">
+            <h1 className="text-center font-bold text-xl pt-5">MY SKILLS</h1>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-5 py-10">
+                {
+                    items.map(item=> <SkillCard key={item.id}item={item}></SkillCard>)
+                }
+            </div>
         </div>
     );
 };
