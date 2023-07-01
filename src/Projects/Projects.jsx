@@ -20,9 +20,9 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="">Live link</a>
-                    <a href="">Server-side-code</a>
-                    <a href="">Client-side-code</a>
+                    <a href="https://assignment-10-chef-hunter.web.app/"target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
                 </div>
                 <p>***Still Working In This Project***</p>
             </div>;
@@ -43,9 +43,9 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="">Live link</a>
-                    <a href="">Server-side-code</a>
-                    <a href="">Client-side-code</a>
+                    <a href="https://assignment-11-d56d2.web.app"target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/Toy-World-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/Toy-World-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
 
                 </div>
                 <p>***Still Working In This Project***</p>
@@ -69,9 +69,9 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="">Live link</a>
-                    <a href="">Server-side-code</a>
-                    <a href="">Client-side-code</a>
+                    <a href="https://assignment-12-f2fe6.web.app"target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
 
                 </div>
                 <p>***Still Working In This Project***</p>
