@@ -20,11 +20,20 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="https://assignment-10-chef-hunter.web.app/"target="_blank" rel="noopener noreferrer">Live link</a>
-                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
-                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
+                    <a href="https://assignment-10-chef-hunter.web.app/" target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Server" target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/Bengal-Kitchen-Client" target="_blank" rel="noopener noreferrer">Client-side-code</a>
+                </div>
+                <div className="pb-3">
+                    <h1 className="py-2 text-xl font-semibold">Short Details:</h1>
+                <ul className="font-medium">
+                    <li>1.Login,Logout and create account system</li>
+                    <li>2.Social login(google and github)</li>
+                    <li>3.Showed chef and their details</li>
+                </ul>
                 </div>
                 <p>***Still Working In This Project***</p>
+                <p>***Not responsive***</p>
             </div>;
         }
         else {
@@ -43,12 +52,20 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="https://assignment-11-d56d2.web.app"target="_blank" rel="noopener noreferrer">Live link</a>
-                    <a href="https://github.com/LeviathanS11/Toy-World-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
-                    <a href="https://github.com/LeviathanS11/Toy-World-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
-
+                    <a href="https://assignment-11-d56d2.web.app" target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/Toy-World-Server" target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/Toy-World-Client" target="_blank" rel="noopener noreferrer">Client-side-code</a>
+                </div>
+                <div className="pb-3">
+                <h1 className="py-2 text-xl font-semibold">Short Details:</h1>
+                    <ul className="font-medium">
+                    <li>1.Login,Logout,Create Account and Social Login</li>
+                    <li>2.CRUD operation</li>
+                    <li>3.Condition menu on navbar</li>
+                    </ul>
                 </div>
                 <p>***Still Working In This Project***</p>
+                <p>***Not responsive***</p>
             </div>
 
                 ;
@@ -69,12 +86,21 @@ const Projects = () => {
                     <li>MongoDb</li>
                 </ul>
                 <div className=" flex flex-col text-blue-700">
-                    <a href="https://assignment-12-f2fe6.web.app"target="_blank" rel="noopener noreferrer">Live link</a>
-                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Server"target="_blank" rel="noopener noreferrer">Server-side-code</a>
-                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Client"target="_blank" rel="noopener noreferrer">Client-side-code</a>
-
+                    <a href="https://assignment-12-f2fe6.web.app" target="_blank" rel="noopener noreferrer">Live link</a>
+                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Server" target="_blank" rel="noopener noreferrer">Server-side-code</a>
+                    <a href="https://github.com/LeviathanS11/The-Language-Lab-Client" target="_blank" rel="noopener noreferrer">Client-side-code</a>
+                </div>
+                <div className="pb-3">
+                <h1 className="py-2 text-xl font-semibold">Short Details:</h1>
+                    <ul className="font-medium">
+                    <li>1.Login,Logout,Create Account and Social Login</li>
+                    <li>2.CRUD operation</li>
+                    <li>3.Condition menu on navbar</li>
+                    <li>4.Dashboard (not fully functional)</li>
+                    </ul>
                 </div>
                 <p>***Still Working In This Project***</p>
+                <p>***Responsive***</p>
             </div>;
         }
         else {
