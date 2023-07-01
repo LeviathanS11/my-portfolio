@@ -3,13 +3,9 @@
 const SkillCard = ({item}) => {
     const {image,name}=item;
     return (
-        <div className="card w-80 h-80 bg-base-100 shadow-xl mx-auto border-2 ">
-            <figure className="px-10 pt-10">
-                <img style={{width:"200px",height:"200px"}} src={image} className="rounded-xl" />
-            </figure>
-            <div className="card-body items-center text-center">
-                <h2 className="card-title text-cyan-400">{name}</h2>
-            </div>
+        <div className="flex items-center sm:gap-20 gap-3 border-2 sm:w-80 lg:w-72 mx-auto rounded-3xl text-cyan-400">
+            <img className="rounded-3xl" style={{width:"100px",height:"100px"}} src={image} alt="" />
+            <h1 className="w-20">{name}</h1>
         </div>
     );
 };

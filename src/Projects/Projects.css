@@ -1,10 +1,33 @@
-.box{
-    background:url('../assets/addToy.png');
+.box1{
+    background:url('../assets/bengalKItchen.png');
     background-size: cover;
     background-position: top;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
-    transition: 3s;
+    transition: 5s;
+    border-radius: 20px;
 }
-.box:hover{
+.box1:hover{
+    background-position: bottom;
+} 
+.box2{
+    background:url('../assets/toyWorld.png');
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    transition: 5s;
+    border-radius: 20px;
+}
+.box2:hover{
+    background-position: bottom;
+} 
+.box3{
+    background:url('../assets/languagaLab.png');
+    background-size: cover;
+    background-position: top;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    transition: 20s;
+    border-radius: 20px;
+}
+.box3:hover{
     background-position: bottom;
 } 

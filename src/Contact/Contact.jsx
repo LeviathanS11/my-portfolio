@@ -6,7 +6,7 @@ import { SiWinamp } from "react-icons/si";
 const Contact = () => {
     return (
         <div className=" relative text-center bg-gradient-to-r from-slate-200 via-white to-slate-200" id="contact">
-            <h1 className="font-bold text-xl mb-5">CONTACT WITH ME</h1>
+            <h1 className="font-bold text-xl pt-10 pb-3">CONTACT WITH ME</h1>
             <div className="flex items-center justify-center text-cyan-400 text-lg">
                 <SiWinamp></SiWinamp>
                 <p className="font-semibold text-lg text-cyan-400 ">Name:</p>
@@ -37,9 +37,6 @@ const Contact = () => {
                 <p className="font-semibold "> WhatsApp:</p>
             </div>
             <p className="font-semibold">+880 1779 486 896</p>
-            <div className="">
-                <p>hello</p>
-            </div>
 
         </div>
     );

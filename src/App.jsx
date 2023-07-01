@@ -9,7 +9,6 @@ import Projects from './Projects/Projects'
 import About from './About/About'
 import Contact from './Contact/Contact'
 import Skils from './Skills/Skils'
-import Sample from './sample/Sample';
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
     <BrowserRouter>
       <div className="bg-gradient-to-r from-slate-200 via-white to-slate-200  flex justify-between flex-row items-center bg-white  py-1 px-10 ">
         <div className='flex items-center'>
-          <p className='text-sm pl-2 text-gray-800 font-semibold'>SHAKIUL ALAM</p>
+          <p className='text-2xl pl-2 text-gray-800 font-extrabold '>SHAKIUL ALAM</p>
         </div>
         <div className='flex items-center cursor-pointer '>
           <HashLink className="ml-3 text-sm text-gray-800 hover:text-gray-400 duration-500" to='#home' smooth>
@@ -49,7 +48,7 @@ function App() {
       <Skils></Skils>
       <Projects></Projects>
       <Contact></Contact>
-      <Sample></Sample>
+
     </BrowserRouter>
   )
 }

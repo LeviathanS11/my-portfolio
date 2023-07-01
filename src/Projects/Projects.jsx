@@ -5,7 +5,82 @@ import './Projects.css'
 const Projects = () => {
     // const [items, setItem] = useState([]);
     const [showAll, setShowAll] = useState(false);
+    const [showAll1, setShowAll1] = useState(false);
+    const [showAll2, setShowAll2] = useState(false);
 
+    const project1 = () => {
+        if (showAll) {
+            return <div>
+                <h1 className="py-2 text-xl font-semibold">Technologies:</h1>
+                <ul className="flex items-center justify-center gap-5 font-medium">
+                    <li>React Js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Firebase</li>
+                    <li>Express Js</li>
+                    <li>MongoDb</li>
+                </ul>
+                <div className=" flex flex-col text-blue-700">
+                    <a href="">Live link</a>
+                    <a href="">Server-side-code</a>
+                    <a href="">Client-side-code</a>
+                </div>
+                <p>***Still Working In This Project***</p>
+            </div>;
+        }
+        else {
+            return;
+        }
+    }
+    const project2 = () => {
+        if (showAll1) {
+            return <div>
+                <h1 className="py-2 text-xl font-semibold">Technologies:</h1>
+                <ul className="flex items-center justify-center gap-5 font-medium">
+                    <li>React Js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Firebase</li>
+                    <li>Express Js</li>
+                    <li>MongoDb</li>
+                </ul>
+                <div className=" flex flex-col text-blue-700">
+                    <a href="">Live link</a>
+                    <a href="">Server-side-code</a>
+                    <a href="">Client-side-code</a>
+
+                </div>
+                <p>***Still Working In This Project***</p>
+            </div>
+
+                ;
+        }
+        else {
+            return;
+        }
+    }
+    const project3 = () => {
+        if (showAll2) {
+            return <div>
+                <h1 className="py-2 text-xl font-semibold">Technologies:</h1>
+                <ul className="flex items-center justify-center gap-5 font-medium">
+                    <li>React Js</li>
+                    <li>Tailwind CSS</li>
+                    <li>Firebase</li>
+                    <li>Express Js</li>
+                    <li>MongoDb</li>
+                </ul>
+                <div className=" flex flex-col text-blue-700">
+                    <a href="">Live link</a>
+                    <a href="">Server-side-code</a>
+                    <a href="">Client-side-code</a>
+
+                </div>
+                <p>***Still Working In This Project***</p>
+            </div>;
+        }
+        else {
+            return;
+        }
+    }
 
     // useEffect(() => {
     //     fetch("/public/skill.json")
@@ -15,15 +90,6 @@ const Projects = () => {
     //             setItem(data)
     //         })
     // }, [])
-
-    const showdata=()=>{
-        if(showAll){
-            return <p>hello</p>;
-        }
-        else{
-            return ;
-        }
-    }
 
     //  const renderData = () => {
     //     if (showAll) {
@@ -40,7 +106,7 @@ const Projects = () => {
     //             </div>
     //         ))
     //     }
-        
+
 
     // }
     return (
@@ -48,30 +114,48 @@ const Projects = () => {
             <h1 className="text-center font-bold text-xl py-5">PROJECTS</h1>
             {/* {renderData()}
             <button onClick={() => setShowAll(!showAll)} >{showAll ? "Hide " : "Show all"}</button> */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div>
-                    <p className="text-center">my toy world</p>
-                    <div className="box mx-auto w-[600px] md:w-96 h-96"></div>
+                    <h1 className="text-center font-bold text-lgxl pb-2 text-cyan-400">Bengal Kitchen</h1>
+                    <div className="box1 mx-auto  w-[600px] md:w-96 h-96"></div>
                     <div className="text-center">
-                        {showdata()}
-                        
-                            <button onClick={()=>setShowAll(!showAll)}>
-                                {
-                                    showAll?"hide":"show all"
-                                }
-                            </button>
-                        
+                        {project1()}
+
+                        <button className="bg-cyan-400 rounded-lg border-2 w-28 h-10 text-center mt-4 text-gray-800 hover:text-gray-400 duration-500 drop-shadow-xl" onClick={() => setShowAll(!showAll)}>
+                            {
+                                showAll ? "Hide" : "Details"
+                            }
+                        </button>
                     </div>
                 </div>
                 <div>
-                    <div className="box mx-auto w-[600px] md:w-96 h-96"></div>
-                    
+                    <h1 className="text-center font-bold text-lgxl pb-2 text-cyan-400">Toy World</h1>
+                    <div className="box2 mx-auto w-[600px] md:w-96 h-96"></div>
+                    <div className="text-center">
+                        {project2()}
+
+                        <button className="bg-cyan-400 rounded-lg border-2 w-28 h-10 text-center mt-4 text-gray-800 hover:text-gray-400 duration-500 drop-shadow-xl" onClick={() => setShowAll1(!showAll1)}>
+                            {
+                                showAll1 ? "Hide" : "Details"
+                            }
+                        </button>
+                    </div>
                 </div>
                 <div>
-                    <div className="box mx-auto w-[600px] md:w-96 h-96"></div>
-                    
+                    <h1 className="text-center font-bold text-lgxl pb-2 text-cyan-400">The Language Lab</h1>
+                    <div className="box3 mx-auto w-[600px] md:w-96 h-96"></div>
+                    <div className="text-center">
+                        {project3()}
+
+                        <button className="bg-cyan-400 rounded-lg border-2 w-28 h-10 text-center mt-4 text-gray-800 hover:text-gray-400 duration-500 drop-shadow-xl" onClick={() => setShowAll2(!showAll2)}>
+                            {
+                                showAll2 ? "Hide" : "Details"
+                            }
+                        </button>
+                    </div>
                 </div>
             </div>
+            <hr className="mt-5 border-2" />
         </div>
     );
 };
